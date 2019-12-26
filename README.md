@@ -11,11 +11,10 @@
 | 模块名称  | 用途 | 可选/必选|
 | --- | --- | --- |
 | [kero](https://github.com/iuap-design/kero/) | kero 数据模型管理方案 | 必选 |
-| [neoui-kero](https://github.com/iuap-design/neoui-kero)  | 模型和UI之间的适配器 | 必选 |
+| [neoui-kero](https://github.com/iuap-design/neoui-kero)  | 模型和UI之间的双向绑定 | 必选 |
 | [tinper-neoui](https://github.com/iuap-design/tinper-neoui)  | 前端UI框架 | 必选 |
-| [neoui-kero-mixin](https://github.com/iuap-design/neoui-kero-mixin) | 适配器 for mixin | 必选 |
-| [kero-server-adapter](https://github.com/iuap-design/kero-server-adapter) |适配器 for server | 可选 |
-| [kero-fetch](https://github.com/iuap-design/kero-fetch) | 提供与服务器交互时所需的方法，需和后台数据模型联合使用 | 可选 |
+| [neoui-kero-mixin](https://github.com/iuap-design/neoui-kero-mixin) | 适配层 mixin | 必选 |
+| [kero-fetch](https://github.com/iuap-design/kero-fetch) | serverEvent，前提是前后端数据模型一致 | 可选 |
 | [tinper-sparrow](https://github.com/iuap-design/tinper-sparrow) | sparrow 框架基础工具库 | 必选 |
 | [compox](https://github.com/iuap-design/compox) | 控制控件的解析和渲染机制 | 必选 |
 | [compox-util](https://github.com/iuap-design/compox-util) | 提供createApp API，在app对象上辅助新增公共方法 | 必选 |
