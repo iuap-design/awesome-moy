@@ -4,22 +4,24 @@
 
 ## Moy 框架核心实现
 
-- [tinper-moy](https://github.com/iuap-design/tinper-moy/) moy 框架主工程，集成各个子模块package
+ [tinper-moy](https://github.com/iuap-design/tinper-moy/) moy 框架主工程，集成各个子模块package
 
-| 模块名称  | 用途 |
-| --- | --- |
-| [kero](https://github.com/iuap-design/kero/) | kero 数据模型管理方案 |
-| [neoui-kero](https://github.com/iuap-design/neoui-kero)  | 模型和UI之间的适配器 |
-| [tinper-neoui](https://github.com/iuap-design/tinper-neoui)  | 前端UI框架 |
-| [neoui-kero-mixin](https://github.com/iuap-design/neoui-kero-mixin) | 适配器 for mixin |
-| [kero-server-adapter](https://github.com/iuap-design/kero-server-adapter) |适配器 for server |
-| [kero-fetch](https://github.com/iuap-design/kero-fetch) | 提供与服务器交互时所需的方法，需和后台数据模型联合使用 |
-| [tinper-sparrow](https://github.com/iuap-design/tinper-sparrow) | sparrow 框架基础工具库 |
-| compox | |
-| compox-util | |
-| tinper-neoui-grid | |
-| tinper-neoui-polyfill | |
-| tinper-neoui-tree | |
+### Sub Modules
+
+| 模块名称  | 用途 | 可选/必选|
+| --- | --- | --- |
+| [kero](https://github.com/iuap-design/kero/) | kero 数据模型管理方案 | 必选 |
+| [neoui-kero](https://github.com/iuap-design/neoui-kero)  | 模型和UI之间的适配器 | 必选 |
+| [tinper-neoui](https://github.com/iuap-design/tinper-neoui)  | 前端UI框架 | 必选 |
+| [neoui-kero-mixin](https://github.com/iuap-design/neoui-kero-mixin) | 适配器 for mixin | 必选 |
+| [kero-server-adapter](https://github.com/iuap-design/kero-server-adapter) |适配器 for server | 可选 |
+| [kero-fetch](https://github.com/iuap-design/kero-fetch) | 提供与服务器交互时所需的方法，需和后台数据模型联合使用 | 可选 |
+| [tinper-sparrow](https://github.com/iuap-design/tinper-sparrow) | sparrow 框架基础工具库 | 必选 |
+| [compox](https://github.com/iuap-design/compox) | 控制控件的解析和渲染机制 | 必选 |
+| [compox-util](https://github.com/iuap-design/compox-util) | 提供createApp API，在app对象上辅助新增公共方法 | 必选 |
+| [tinper-neoui-grid](https://github.com/iuap-design/tinper-neoui-grid) | 复杂树组件 | 必选 |
+| [tinper-neoui-polyfill](https://github.com/iuap-design/tinper-neoui-polyfill) | 浏览器兼容解决方案| 可选 |
+| [tinper-neoui-tree](https://github.com/iuap-design/tinper-neoui-tree) |  复杂树组件 | 必选 |
 
 ## Moy 开发工具
 
